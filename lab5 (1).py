@@ -212,9 +212,6 @@ W0 = 10
 W1 = 0.2
 W2 = -0.75
 learning_rate = 0.05
-df=pd.read_csv(r"C:\Users\gnani\Downloads\Custom_CNN_Features.csv")
-X = df.drop(columns=['Label']) 
-y = df['Label']
 # Training data for AND gate
 # AND gate truth table: inputs and corresponding outputs
 inputs = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
